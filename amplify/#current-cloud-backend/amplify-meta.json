@@ -1,0 +1,47 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "ndpointenerator-20190117125401-authRole",
+			"UnauthRoleArn": "arn:aws:iam::571268168433:role/ndpointenerator-20190117125401-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::571268168433:role/ndpointenerator-20190117125401-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "ndpointenerator-20190117125401-deployment",
+			"UnauthRoleName": "ndpointenerator-20190117125401-unauthRole",
+			"StackName": "ndpointenerator-20190117125401",
+			"StackId": "arn:aws:cloudformation:eu-west-1:571268168433:stack/ndpointenerator-20190117125401/f6584380-1a56-11e9-8059-06d4caf00aa8"
+		}
+	},
+	"auth": {
+		"cognitobd3b458e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ndpointenerator-20190117125401-deployment/amplify-cfn-templates/auth/cognitobd3b458e-cloudformation-template.yml",
+				"logicalId": "authcognitobd3b458e"
+			},
+			"lastPushTimeStamp": "2019-01-17T12:57:17.919Z",
+			"output": {
+				"IdentityPoolId": "eu-west-1:dc71ace3-e97d-460a-bc9b-b4b7eb6d21a1",
+				"IdentityPoolName": "endpointgenerator_identitypool_c4363bc9"
+			},
+			"lastPushDirHash": "6gk73dc/2G1nqV3/i3ZJUTuZOg4="
+		}
+	},
+	"analytics": {
+		"endpointgenerator": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ndpointenerator-20190117125401-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsendpointgenerator"
+			},
+			"lastPushTimeStamp": "2019-01-17T12:57:17.919Z",
+			"output": {
+				"appName": "endpointgenerator",
+				"Region": "us-east-1",
+				"Id": "defce4a2c0e046598922583eefdafb9f"
+			},
+			"lastPushDirHash": "91dfKhrHPqhcMp73RvnZNVbwQoY="
+		}
+	}
+}

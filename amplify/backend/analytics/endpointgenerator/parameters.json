@@ -1,0 +1,11 @@
+{
+    "appName": "endpointgenerator",
+    "roleName": "pinpointLambdaRole5b6a1945",
+    "cloudWatchPolicyName": "cloudWatchPolicy5b6a1945",
+    "pinpointPolicyName": "pinpointPolicy5b6a1945",
+    "authPolicyName": "pinpoint_amplify_5b6a1945",
+    "unauthPolicyName": "pinpoint_amplify_5b6a1945",
+    "authRoleName": "ndpointenerator-20190117125401-authRole",
+    "unauthRoleName": "ndpointenerator-20190117125401-unauthRole",
+    "IAMPrefix": "571268168433"
+}

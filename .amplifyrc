@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "ndpointenerator-20190117125401-authRole",
+            "UnauthRoleArn": "arn:aws:iam::571268168433:role/ndpointenerator-20190117125401-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::571268168433:role/ndpointenerator-20190117125401-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "ndpointenerator-20190117125401-deployment",
+            "UnauthRoleName": "ndpointenerator-20190117125401-unauthRole",
+            "StackName": "ndpointenerator-20190117125401",
+            "StackId": "arn:aws:cloudformation:eu-west-1:571268168433:stack/ndpointenerator-20190117125401/f6584380-1a56-11e9-8059-06d4caf00aa8"
+        }
+    }
+}
